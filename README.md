@@ -5,6 +5,10 @@ Example data for use with [saltstack-states](https://github.com/EducationalTechn
 The data contained in this repository is a template for what data is required by `saltstack_sates`.
 When setting up salstack on your environment, you should provide your own data.
 
+The purpose of separating this into it's own repository and not including data with the states is, that data
+may contain secrets, which should not be added to a public vcs, or not added to a vcs at all. Users of the
+saltstack-states repo may choose how they want to provide their data.
+
 ## Contents
 
 ### `config`
