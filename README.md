@@ -1,6 +1,6 @@
 # saltstack-data-examples
 
-Example data for use with [saltstack-states](https://github.com/EducationalTechnologies/saltstack-states).
+Example data for use with [saltstack-states](https://github.com/strangedev/saltstack-states).
 
 The data contained in this repository is a template for what data is required by `saltstack_sates`.
 When setting up salstack on your environment, you should provide your own data.
